@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_1/components/contact_detail.dart';
 import 'package:flutter_1/components/home_page.dart';
+import 'package:flutter_1/components/navigation.dart';
 
 void main() {
   runApp(const MyApp());
@@ -18,7 +20,7 @@ class MyApp extends StatelessWidget {
        
         primarySwatch: Colors.purple,
       ),
-      home: const HomePage(),
+      home: const NavigationPage(),
     );
   }
 }
